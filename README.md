@@ -4,7 +4,7 @@ My Emacs configuration
 
 ## 配置目录结构
 
-![dir]('https://github.com/toastsgithub/.emacs.d/blob/master/dir.png')
+![dir](https://raw.githubusercontent.com/toastsgithub/.emacs.d/master/dir.png)
 
 ## 插件目录
 
