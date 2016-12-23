@@ -2,12 +2,20 @@
 /auto-save-list/*
 
 # Mac
+# 忽略*所有*的布局文件
 .DS_Store
 
 # Emacs 相关
 
-## elpa软件可执行文件(?)
+## elpa软件可执行文件(?)(root)
 /elpa/*
 
-## smex记录
-smex-items
+## smex记录(root)
+/smex-items
+
+## ido文件
+ido.last
+
+## Emacs临时文件
+\#*
+*~

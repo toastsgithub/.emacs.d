@@ -3,11 +3,16 @@
 (require 'cl)
 
 ;; Add Packages
+;; emacs will check this list when startup,
+;; if the package(s) bellow didn't install locally,
+;; emacs will do installation before at startup
 (defvar my/packages '(
 		      ;; Auto Completion
 		      company
 		      ;; Better Editor
 		      hungry-delete
+		      ;;smex
+		      smex
 		      ) "Default packages")
 
 (setq package-selected-packages my/packages)
