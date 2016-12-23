@@ -1,0 +1,13 @@
+# 不知道干啥的，但是自动生成的，先忽略
+/auto-save-list/*
+
+# Mac
+.DS_Store
+
+# Emacs 相关
+
+## elpa软件可执行文件(?)
+/elpa/*
+
+## smex记录
+smex-items
