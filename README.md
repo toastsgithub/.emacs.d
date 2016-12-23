@@ -4,19 +4,7 @@ My Emacs configuration
 
 ## 配置目录结构
 
-.
-├── elpa
-│   ├── archives
-│   ├── color-theme-20080305.34
-│   ├── company-20161126.1629
-│   └── some other package here ...
-├── init.el 
-├── lisp
-│   ├── custome.el
-│   ├── init-better-defaults.el
-│   ├── init-packages.el
-│   └── init-ui.el
-└── other temp files and directories
+![dir]('https://github.com/toastsgithub/.emacs.d/blob/master/dir.png')
 
 ## 插件目录
 
