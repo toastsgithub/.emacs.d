@@ -41,4 +41,15 @@
 
 ;;auto pair paren
 (electric-pair-mode 1)
+
+;; org mode todo stick
+(setq org-todo-keywords '((sequence "MESSAGE" "CANDIDATE" "TODO" "|" "DONE" "ABORT")))
+(setq org-todo-keyword-faces '(
+			       ("MESSAGE" . (:foreground "orange" :weight bold))
+			       ("CANDIDATE" . (:foreground "#5CC9F5" :weight bold))
+			       ("TODO" . (:foreground "red" :weight bold))
+			       ("DONE" . (:foreground "green" :weight bold))
+			       ("ABORT" . (:foreground "gray" :weight bold))
+			       ))
+
 (provide 'init-better-defaults)
