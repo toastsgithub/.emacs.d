@@ -30,7 +30,10 @@
    [default default default italic underline success warning error])
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 2)
- '(custom-enabled-themes (quote (tango))))
+ '(custom-enabled-themes (quote (tango)))
+ '(markdown-command
+   "pandoc -f markdown -t html -s -mathjax -highlight-style pygments")
+ '(org-agenda-files (quote ("~/Schedule/2016-08-16.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -1,6 +1,6 @@
 ;; LOAD THEME
 
-(load-theme 'tango)
+(load-theme 'wombat)
 
 
 

@@ -42,8 +42,11 @@
 ;;auto pair paren
 (electric-pair-mode 1)
 
+;;window-numbering mode , fast window switch solution
+(window-numbering-mode 1)
+
 ;; org mode todo stick
-(setq org-todo-keywords '((sequence "MESSAGE" "CANDIDATE" "TODO" "|" "DONE" "ABORT")))
+(setq org-todo-keywords '((sequence "CANDIDATE" "TODO" "|" "DONE" "ABORT" "MESSAGE")))
 (setq org-todo-keyword-faces '(
 			       ("MESSAGE" . (:foreground "orange" :weight bold))
 			       ("CANDIDATE" . (:foreground "#5CC9F5" :weight bold))
