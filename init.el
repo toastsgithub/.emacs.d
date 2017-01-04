@@ -21,7 +21,7 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;; Customize file will be loaded individually
-(setq custom-file "~/.emacs.d/lisp/init-custom.el")
+(setq custom-file "~/.emacs.d/lisp/custom.el")
 (load custom-file)
 
 ;;THESE CONFIG WILL APPEAR WHEN ENABLE THE CUSTOM OPTIONS(I GUESS)
