@@ -3,6 +3,9 @@
 ;; SHOW LINE-NUM
 (global-linum-mode 1)
 
+;; DISABLE THE menu-bar-mode
+(setq menu-bar-mode -1)
+
 ;; CHANGE THE STYLE OF CURSOR
 (setq-default cursor-type 'bar)
 
@@ -13,7 +16,7 @@
 ;;(electric-indent-mode -1)
 
 ;; CHANGE FONT-SIZE
-(set-face-attribute 'default nil :height 160)
+;; (set-face-attribute 'default nil :height 160)
 
 ;; FORBID EMACS TO PRODUCE BACKUP FILE
 (setq make-backup-files nil)
